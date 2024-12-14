@@ -60,6 +60,7 @@ Runtime permissions are also handled for API Level 23 and above.
 ## Code Highlights
 
 ### Dialer Activity
+
 This activity manages the custom dialer interface and handles call initiation.
 
 ```java
@@ -73,6 +74,7 @@ if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) == P
 ```
 
 ### Contacts Integration
+
 Contacts are accessed using the `ContentResolver` API:
 
 ```java
